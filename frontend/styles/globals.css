@@ -1,0 +1,49 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+
+  /* -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+}
+/* Older browsers */
+/* html { font-size: 14px; } */
+
+/* Modern browsers only need this one */
+/* @media screen and (min-width: 25em) {
+  html {
+    font-size: calc(02px + (24 - 12) * (100vw - 700px) / (800 - 400));
+  }
+}
+
+/* Safari <8 and IE <11 */
+/* @media screen and (min-width: 25em) {
+  html {
+    font-size: calc(10px + (24 - 12) * (100vw - 700px) / (800 - 400));
+  }
+}
+@media screen and (min-width: 50em) {
+  html {
+    font-size: calc(10px + (24 - 12) * (100vw - 900px) / (800 - 400));
+  }
+} */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input {
+  height: 5rem;
+  width: 30vw;
+  border: 1px solid grey;
+  border-radius: 1rem;
+  padding: 1rem;
+  min-width: 300px;
+  font-size: 1rem;
+}
